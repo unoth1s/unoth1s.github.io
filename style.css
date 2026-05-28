@@ -61,6 +61,8 @@ header {
     background-color: #ffffff;
     display: block;
     text-align: center;
+    left: auto;
+    right: 0;
 }
 .lang ul li ul li a {
     color: #000000;
