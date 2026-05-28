@@ -167,7 +167,7 @@ td {
     .tablemain {
         width: 90%;
     }
-    table, th, tr, td {
+    .tablemain table, .tablemain th, .tablemain tr, .tablemain td {
         font-size: 90%;
     }
 }
