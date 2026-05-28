@@ -91,6 +91,10 @@ header {
     color: #000000;
     background-color: #ffffff;
 }
+#menu li a.selected {
+    color: #000000;
+    background-color: #ffffff;
+}
 
 .posterleft {
     width: 37.5%;
@@ -111,12 +115,45 @@ header {
     color: #000000;
 }
 
+table, th, tr {
+    margin-top: 40px;
+    font-size: 100%;
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    padding: 0 5px 10px 5px;
+}
+.td1 { width: 20%; }
+.td2 { width: 50%; }
+.td3 {
+    width: 30%;
+    text-align: right;
+}
+.tableleft {
+    width: 25%;
+    float: left;
+    color: #000000;
+}
+.tablemain {
+    width: 50%;
+    float: left;
+}
+.tableright {
+    width: 25%;
+    float: left;
+    color: #000000;
+}
+
 @media only screen and (max-width: 600px) {
     .logomain, .postermain {
         width: 80%;
     }
     .logoleft, .logoright, .posterleft, .posterright {
         width: 10%;
+    }
+    .tableleft, .tableright {
+        width: 5%;
     }
     #menu li {
         display: block;
@@ -126,6 +163,12 @@ header {
         float: none;
         text-align: center;
         margin-bottom: 10px;
+    }
+    .tablemain {
+        width: 90%;
+    }
+    table, th, tr, td {
+        font-size: 95%;
     }
 }
 
