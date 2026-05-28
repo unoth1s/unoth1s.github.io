@@ -52,6 +52,7 @@ body {
     position: absolute;
     width: 95px;
     display: none;
+    margin-right: -1%;
 }
 .lang ul li ul li {
     background-color: #ffffff;
@@ -114,7 +115,7 @@ body {
     .logoleft, .logoright, .posterleft, .posterright {
         width: 10%;
     }
-    #menu, .lang {
+    #menu {
         width: 100%;
     }
 }
