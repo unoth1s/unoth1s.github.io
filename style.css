@@ -52,7 +52,6 @@ body {
     position: absolute;
     width: 95px;
     display: none;
-    margin-right: 1%;
 }
 .lang ul li ul li {
     background-color: #ffffff;
@@ -117,6 +116,9 @@ body {
     }
     #menu li {
         padding: 0 1% 0 1%;
+    }
+    .lang ul li ul {
+        width: 80px;
     }
 }
 
