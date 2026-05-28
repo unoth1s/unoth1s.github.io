@@ -119,11 +119,13 @@ header {
         width: 10%;
     }
     #menu li {
-        padding: 0;
+        display: block;
+        font-size: 120%;
     }
-    .lang ul li ul {
-        position: absolute;
-        margin-right: 1%;
+    .lang {
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
     }
 }
 
