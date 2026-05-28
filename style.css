@@ -13,6 +13,10 @@ body {
     font-size: 100%;
 }
 
+header {
+    position: relative;
+}
+
 .logoleft {
     width: 30%;
     float: left;
@@ -116,6 +120,9 @@ body {
     }
     #menu li {
         padding: 0 1% 0 1%;
+    }
+    .lang ul li ul {
+        width: 80px;
     }
 }
 
