@@ -123,6 +123,7 @@ header {
     }
     .lang ul li ul {
         position: absolute;
+        width: 80px;
         right: 0;
     }
 }
