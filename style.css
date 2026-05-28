@@ -114,6 +114,9 @@ body {
     .logoleft, .logoright, .posterleft, .posterright {
         width: 10%;
     }
+    #menu, .lang {
+        width: 100%;
+    }
 }
 
 footer {
