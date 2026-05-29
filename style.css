@@ -191,6 +191,31 @@ td {
     color: #000000;
 }
 
+.box {
+    width: 60%;
+    float: left;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.btn {
+    display: inline-block;
+    margin: 20px 2%;
+    padding: 1% 60px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 120%;
+}
+.btn a {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+
+}
+.btn a:hover {
+    color: #000000;
+}
+
 .setlistleft {
     float: left;
     width: 20%;
@@ -272,6 +297,10 @@ td {
     }
     #dd {
         width: 90%;
+    }
+    .box {
+        width: 80%;
+        margin: 40px 0;
     }
 }
 
