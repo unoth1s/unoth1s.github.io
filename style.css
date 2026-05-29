@@ -191,6 +191,54 @@ td {
     color: #000000;
 }
 
+.setlistleft {
+    float: left;
+    width: 20%;
+}
+.setlistmain {
+    margin-top: 40px;
+    float: left;
+    width: 60%;
+}
+#dd {
+    width: 40%;
+    margin: 0 5% 50px 5%;
+    float: left;
+}
+#dd ul {
+    display: inline;
+}
+#dd ul li {
+    display: inline-block;
+    text-align: center;
+}
+#dd ul li:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+#dd ul li:hover ul {
+    display: block;
+}
+#dd ul li img {
+    width: 100%;
+}
+#dd ul li ul {
+    position: absolute;
+    display: none;
+}
+#dd ul li ul li {
+    font-size: 90%;
+    background-color: #ffffff;
+    color: #000000;
+    display: block;
+    text-align: left;
+    padding: 0 5px 5px 5px;
+}
+.setlistright {
+    float: left;
+    width: 20%;
+}
+
 @media only screen and (max-width: 1000px) {
     .logomain, .postermain, .stagemain_l, .stagemain_r {
         width: 80%;
@@ -221,6 +269,9 @@ td {
     }
     .spaceclear {
         clear: both;
+    }
+    #dd {
+        width: 90%;
     }
 }
 
