@@ -240,14 +240,14 @@ td {
 }
 
 @media only screen and (max-width: 1000px) {
-    .logomain, .postermain, .stagemain_l, .stagemain_r {
+    .logomain, .postermain, .stagemain_l, .stagemain_r, .setlistmain {
         width: 80%;
     }
     .logoleft, .logoright, .posterleft, .posterright, .stageleft, .stageright {
         width: 10%;
     }
-    .tableleft, .tableright {
-        width: 5%;
+    .tableleft, .tableright, .setlistleft, .setlistright {
+        width: 10%;
     }
     .stagemain_space {
         width: 10%;
