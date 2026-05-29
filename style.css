@@ -6,6 +6,9 @@
 .clear {
     clear: both;
 }
+.spaceclear {
+    clear: none;
+}
 body {
     color: #ffffff;
     background-color: #000000;
@@ -54,7 +57,7 @@ header {
 }
 .lang ul li ul {
     position: absolute;
-    width: 95px;
+    width: 90px;
     display: none;
 }
 .lang ul li ul li {
@@ -145,15 +148,61 @@ td {
     color: #000000;
 }
 
-@media only screen and (max-width: 600px) {
-    .logomain, .postermain {
+.stageleft {
+    width: 25%;
+    float: left;
+    color: #000000;
+}
+.stagemain_l {
+    margin-top: 40px;
+    float: left;
+    width: 30%;
+}
+.stagemain_l img {
+    width: 100%;
+}
+.stagemain_space {
+    width: 0%;
+    float: left;
+    color: #000000;
+}
+.stagemain_r {
+    margin: 10px 0 0 10%;
+    width: 15%;
+    float: left;
+}
+#ticket {
+    width: 100%;
+}
+#ticket table, #ticket tr {
+    font-size: 100%;
+    border-collapse: collapse;
+}
+#ticket td.c {
+    width: 8%;
+    text-align: right;
+}
+#ticket td.s {
+    width: 42%;
+}
+.stageright {
+    width: 25%;
+    float: left;
+    color: #000000;
+}
+
+@media only screen and (max-width: 1000px) {
+    .logomain, .postermain, .stagemain_l, .stagemain_r {
         width: 80%;
     }
-    .logoleft, .logoright, .posterleft, .posterright {
+    .logoleft, .logoright, .posterleft, .posterright, .stageleft, .stageright {
         width: 10%;
     }
     .tableleft, .tableright {
         width: 5%;
+    }
+    .stagemain_space {
+        width: 10%;
     }
     #menu li {
         display: block;
@@ -169,6 +218,9 @@ td {
     }
     .tablemain table, .tablemain th, .tablemain tr, .tablemain td {
         font-size: 90%;
+    }
+    .spaceclear {
+        clear: both;
     }
 }
 
