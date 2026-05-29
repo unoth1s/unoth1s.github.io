@@ -243,11 +243,11 @@ td {
     .logomain, .postermain, .stagemain_l, .stagemain_r, .setlistmain {
         width: 80%;
     }
-    .logoleft, .logoright, .posterleft, .posterright, .stageleft, .stageright {
+    .logoleft, .logoright, .posterleft, .posterright, .stageleft, .stageright, .setlistleft, .setlistright {
         width: 10%;
     }
-    .tableleft, .tableright, .setlistleft, .setlistright {
-        width: 10%;
+    .tableleft, .tableright {
+        width: 5%;
     }
     .stagemain_space {
         width: 10%;
