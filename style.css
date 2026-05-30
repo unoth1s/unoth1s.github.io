@@ -199,10 +199,12 @@ td {
     border-collapse: collapse;
 }
 #ticket td.c {
+    padding-bottom: 10px;
     width: 8%;
     text-align: right;
 }
 #ticket td.s {
+    padding-bottom: 10px;
     width: 42%;
 }
 .stageright {
