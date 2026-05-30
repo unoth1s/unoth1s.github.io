@@ -119,19 +119,38 @@ header {
 }
 
 table, th, tr {
-    margin-top: 40px;
-    font-size: 100%;
+    font-size: 105%;
     width: 100%;
     border-collapse: collapse;
 }
 td {
-    padding: 0 5px 10px 5px;
+    padding: 0 5px 0 5px;
 }
-.td1 { width: 20%; }
-.td2 { width: 50%; }
+.tda {
+    width: 20%;
+    padding-bottom: 30px;
+}
+.tdb {
+    width: 50%;
+    padding-bottom: 30px;
+}
+.tdc {
+    width: 30%;
+    padding-bottom: 30px;
+    text-align: right;
+}
+.td1 {
+    width: 20%;
+    padding-bottom: 10px;
+    }
+.td2 {
+    width: 50%;
+    padding-bottom: 10px;
+}
 .td3 {
     width: 30%;
     text-align: right;
+    padding-bottom: 10px;
 }
 .tableleft {
     width: 25%;
@@ -139,6 +158,7 @@ td {
     color: #000000;
 }
 .tablemain {
+    margin-top: 40px;
     width: 50%;
     float: left;
 }
