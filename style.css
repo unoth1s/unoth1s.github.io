@@ -191,6 +191,12 @@ td {
     width: 15%;
     float: left;
 }
+
+.ticketspace {
+    width: 20%;
+    float: left;
+    color: #000000;
+}
 #ticket {
     width: 100%;
 }
@@ -218,7 +224,6 @@ td {
     float: left;
     text-align: center;
     margin-top: 40px;
-
 }
 .btn {
     display: inline-block;
@@ -321,8 +326,14 @@ td {
         width: 90%;
     }
     .box {
-        width: 80%;
+        width: 60%;
         margin: 40px 0;
+    }
+    .btn {
+        display: block;
+    }
+    .ticketspace {
+        width: 20%;
     }
 }
 
